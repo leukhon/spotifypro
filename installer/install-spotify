@@ -1,0 +1,22 @@
+#!/bin/bash
+clear
+
+echo "Bienvenido / Welcome"
+echo "Gracias por usar el instalador de Spotify para Linux | Thanks for using Linux Spotify's installer"
+echo "Installing repository keys | Instalando llaves de verificación del repositorio"
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+
+echo "Adding repository... | Añadiendo repositorio..."
+
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+
+echo "Updating packages list | Actualizando el listado de programas"
+
+sudo apt-get update
+
+echo "Installing Spotify (if program ask you yes or no (Y or N) push Enter | Instalando Spotify (Si pregunta si o no (Y o N) pulsa Enter)
+
+sudo apt-get install spotify-client
+
+echo "Installed sucessfully. Enjoy | Instalado satifactoriamente. Disfruta de Spotify"
