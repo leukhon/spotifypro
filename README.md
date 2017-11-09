@@ -1,25 +1,25 @@
-# SpoBlock Ads
+# Spotify Pro
 ## English
 ***
-If you are a user of Spotify who likes the variety of music you can listen but don't like ads and you dont have enought money to pay Premium services, i havve a solution:
-This scripts can help you to block ads in Spotify Free in Linux and Windows It's easy to do:
+If you like Spotify for it's variety of music you can listen but you dont know how to install in your Linux and/or dont likes ads but you dont have money to pay a premium account. There's a solution:
 
-### Windows
-Download file "spoblockads.bat" in your Windows OS. Execute. That's all, folks!!!
+#### Windows
+If you dont have installed Spotify, you can download here: https://www.spotify.com/es/download/windows/
+To avoid ads being a Non-Premium user, you need to download the last release (https://github.com/tigreiberico/spotifypro/releases) and execute `spoblockads.bat` in folder `Anti-Ads` in your Windows OS. That's all, folks!!!
 
 
-### Linux
-Download file "spoblockads.sh" in your Linux OS. Configure properties to allow execution. Execute. That's all, folks!!!
+#### Linux
+If you dont have installed Spotify, you can install Spotify using the installer. Simply, download the last release (https://github.com/tigreiberico/spotifypro/releases), and find a file called `spotify-installer`. In a terminal use `cd` to go to the folder where is located the file and then write `sudo chmod 755 spotify-installer` and then execute writing `./spotify-installer`. To avoid ads, locate `spoblockads.bat` in folder `Anti-Ads`. Use `sudo` to execute. That's all, folks!!!
+
 
 ***
 ## Spanish
 ***
-Si eres de esas personas que te gusta Spotify por la variedad de música pero te molesta los anuncios y no tienes dinero para pagar Spotify Premium te ofrezco una solución:
-Dependiendo de si usas Windows o Linux deberás seguir unas instrucciones u otras:
+Si te gusta Spotify por la variedad de canciones que ofrece pero no sabes como instalarlo en tu sistema operativo Linux y/o eres un usuario free y sufres los anuncios pero no tienes dinero para una cuenta premium, hay una solución:
 
-### Windows
-Descarga el archivo "spoblockads.bat" en tu ordenador. Ejecútalo. Disfruta de Spotify sin anuncios.
+#### Windows
+Si no tienes instalado Spotify, descargarlo aquí:https://www.spotify.com/es/download/windows/ Si ya lo tienes instalado y lo que quieres es no tener anuncios tienes que descargarte la ultima versión del programa (https://github.com/tigreiberico/spotifypro/releases) y ejecutar `spoblockads.bat` situado en la carpeta `Anti-Ads`. **Recuerda ejecutarlo como Administrador**
 
 
-### Linux
-Descarga el archivo "spoblockads.sh" en tu ordenador. Modifica las propiedades para que sea un archivo ejecutable. Ejecútalo. Disfruta de Spotify sin anuncios.
+#### Linux
+Si no tienes instalado Spotify, puedes usar el instalador. Para ello, descarga la última versión del programa (https://github.com/tigreiberico/spotifypro/releases), y ejecuta un archivo llamado `"spotify-installer"` en una carpeta llamada `installer`. En una terminal, navega hasta la carpeta donde está ese archivo usando el comando `cd` y una vez estés allí, usa el siguiente comando: `chmod 755 spotify-installer` y luego ejecutalo en la terminal de la siguiente manera: `./spotify-installer`. Cuando eres usuario Free y no quieres anuncios, busca el archivo `spoblockads.bat` in folder `Anti-Ads`. Recuerda utilizar `sudo` para ejecutar el archivo.
