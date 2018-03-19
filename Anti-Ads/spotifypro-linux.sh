@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sudo echo -e "#[Spoblockads v1.0]
+sudo echo -e "#[SpotifyPro v1.1]
+#https://github.com/xhvck/spotifypro
+#LICENSE: Apache 2.0
+#https://github.com/xhvck/spotifypro/blob/master/LICENSE
 0.0.0.0 adclick.g.doublecklick.net
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ads-fa.spotify.com
