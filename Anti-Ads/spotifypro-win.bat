@@ -2,7 +2,10 @@
 
 set hostspath=%windir%\System32\drivers\etc\hosts
 
-echo #[Spoblockads v1.0] >> %hostspath%
+echo #[SpotifyPro v1.1] >> %hostspath%
+echo #https://github.com/xhvck/spotifypro >> %hostspath%
+echo #LICENSE: Apache 2.0 >> %hostspath%
+echo #https://github.com/xhvck/spotifypro/blob/master/LICENSE >> %hostspath%
 echo 0.0.0.0 adeventtracker.spotify.com >> %hostspath%
 echo 0.0.0.0 ads-fa.spotify.com >> %hostspath%
 echo 0.0.0.0 analytics.spotify.com >> %hostspath%
